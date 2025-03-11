@@ -126,8 +126,13 @@ export default function CaseStudiesPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0 flex items-center">
-                <span className="text-xl font-bold text-gray-900 dark:text-white">Consiono</span>
-                <span className="ml-1 text-blue-600 dark:text-blue-400">Consulting</span>
+                <Image 
+                  src="/full_logo_2.png" 
+                  alt="Consiono Consulting" 
+                  width={150} 
+                  height={90} 
+                  priority
+                />
               </Link>
               <div className="hidden md:block ml-10">
                 <div className="flex items-center space-x-8">
